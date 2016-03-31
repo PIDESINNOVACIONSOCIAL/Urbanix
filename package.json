@@ -1,0 +1,41 @@
+{
+  "name": "uberto-checador",
+  "version": "0.1.0",
+  "description": "A simple SPA built over ",
+  "main": "index.js",
+  "scripts": {
+    "linting": "semistandard",
+    "babelify": "browserify app/src/app.js -o app/public/js/app.js -t [ babelify ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+  	"node": ">=4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-router": "2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.6.5",
+    "babel-core": "6.6.5",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "babelify": "7.2.0",
+    "browserify": "13.0.0",
+    "semistandard": "7.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishelashala/uberto-checador.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mishelashala/uberto-checador/issues"
+  },
+  "homepage": "https://github.com/mishelashala/uberto-checador#readme"
+}
